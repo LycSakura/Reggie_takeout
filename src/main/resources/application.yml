@@ -13,6 +13,11 @@ spring:
       username: root
       password: Lyc031021@
       mysql: usePingMethod=false
+  redis:
+    host: localhost
+    port: 6379
+    database: 0
+#    password:
 # mybatis-plus配置
 mybatis-plus:
   configuration:
